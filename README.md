@@ -39,6 +39,13 @@ The algorithm for NLTK stopwords involves several steps:
 Overall, the NLTK stopwords algorithm is designed to improve the accuracy and efficiency of natural language processing tasks by removing common words that are not useful for analysis. By reducing the size of the text and focusing on the most meaningful words, the algorithm can help to improve the accuracy of text classification, sentiment analysis, and other natural language processing tasks.
 
 Applied by using NLTK library
+# Installations:
+
+Install dependencies using requirements.txt
+
+```shell
+pip install -r requirements.txt
+```
 
 # The program asks the user to give input whose token is to be reduced 
 
