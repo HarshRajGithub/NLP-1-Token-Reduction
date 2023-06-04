@@ -2,6 +2,9 @@
 A python program to reduce token using NLTK library. This can be used to reduce token from a file or chat entered further a code to use the reduced prompt for GPT-3 is given.
 To use the program just enter the text in input or upload the file and the token reduction works.This Program on an average reduces the token count by 27 to 33 percent without losing any meaning.
 
+![Screenshot (282)](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/assets/109783727/d6548206-61f8-4c61-9fd9-4345473459e3)
+
+
 The following program uses lemmatization and removal of stop words concept for token reduction.
 This methods can be easily applied using NLTK library available for python.
 
