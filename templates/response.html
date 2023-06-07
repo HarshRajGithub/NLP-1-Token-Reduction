@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Condition Helpdesk</title>
+</head>
+<body>
+    <h1>Health Condition Helpdesk</h1>
+    <p><strong>You:</strong>{{ user_input }}</p>
+    <p><strong>Chatbot:</strong>{{ bot_response }}</p>
+    <form method="post" action="{{ url_for('chatbot')}}">
+        <label for="message">Message:</label>
+</body>
+</html>

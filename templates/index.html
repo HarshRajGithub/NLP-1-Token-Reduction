@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>complete prompt optomized chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <form method="POST" action="{{url_for('chatbot')}}">
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required>
+        <button type="submit">Chat</button>
+    </form>
+</body>
+</html>
