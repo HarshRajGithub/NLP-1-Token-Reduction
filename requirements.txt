@@ -1,2 +1,5 @@
 nltk==3.8.1
-
+openai==0.27.7
+python_dotenv==1.0.0
+flask==2.2.3
+requests==2.27.1
