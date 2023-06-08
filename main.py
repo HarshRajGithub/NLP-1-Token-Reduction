@@ -64,6 +64,7 @@ def chatbot():
      text_final = nltk.Text(lemmatized_tokens)
     # Use the OpenAI API to generate a response
      prompt = f"User: {text_final}\nChatbot:"
+     chat_history=[]
      response = openai.Completion.create(
           engine="text-davinci-002",
           prompt=prompt,
@@ -76,6 +77,7 @@ def chatbot():
 
     # Extract response from OpenAI API result
      bot_response=response.choices[0].text.strip()
+     chat_history.append(f"{text_final}\nchatbot: {bot_response}")
 
     #Render the template with the response text
      return render_template(
@@ -86,12 +88,8 @@ def chatbot():
 
 # start the Flask app
 if __name__ == "__main__":
-     app.run(host="0.0.0.0", port=5000, debug=True)
-        
-    
-'''
-For only Token Optimization
-# Define input prompt
+     app.run(debug=True)
+'''# Define input prompt
 input_prompt = input("Please start the chat- ")
 
 #for a text file
@@ -145,23 +143,4 @@ print("Lemmatized tokens:", lemmatized_tokens)
 
 # Print the resulting sentencesfor sentence in sentences_final:
 print("Final text is:", text_final)
-# For working with gpt-3
-
-
-import openai
-
-def askGPT(text):
-    openai.api_key = "your_api_key"
-    response = openai.Completion.create(
-        engine = "text-davinci-003",
-        prompt = text,
-        temperature = 0.6,
-        max_tokens = 150,
-    )
-    return print(response.choices[0].text)
-def main():
-    while True:
-        askGPT(text_final)
-
-main()
 '''
