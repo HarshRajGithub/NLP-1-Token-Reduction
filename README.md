@@ -3,7 +3,7 @@ A python program to reduce token using NLTK library. This can be used to reduce 
 To use the program just enter the text in input or upload the file and the token reduction works.This Program on an average reduces the token count by 27 to 33 percent without losing any meaning.
 
 ![Screenshot (282)](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/assets/109783727/d6548206-61f8-4c61-9fd9-4345473459e3)
-![Screenshot (292)](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/assets/109783727/e6ab8abb-abb7-49e7-a1d5-e7edf9a1f770)
+![Input](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/blob/main/Screenshot%20(292).png)
 ![Screenshot (294)](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/assets/109783727/2a4ba3ec-2ef9-4246-b12f-ca818312ce58)
 
 
