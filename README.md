@@ -4,7 +4,7 @@ To use the program just enter the text in input or upload the file and the token
 
 ![All possible operations]https://github.com/HarshRajGithub/NLP-1-Token-Reduction/blob/main/Result_Screenshot.png)
 ![Input](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/blob/main/Screenshot%20(292).png)
-![Output](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/assets/109783727/2a4ba3ec-2ef9-4246-b12f-ca818312ce58)
+![Output](https://github.com/HarshRajGithub/NLP-1-Token-Reduction/blob/main/Screenshot%20(294).png)
 
 
 The following program uses lemmatization and removal of stop words concept for token reduction.
